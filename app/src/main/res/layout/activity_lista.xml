@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.marco.biblia.Notas.Lista">
+
+    <TextView
+        android:id="@+id/nomeUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        android:text="MINHAS NOTAS"
+        android:textSize="16dp"
+        android:layout_margin="10dp"
+        android:layout_alignBaseline="@+id/btAdd"
+        android:layout_alignBottom="@+id/btAdd"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/white"
+        android:elevation="2dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+
+    <Button
+        android:id="@+id/btAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/listView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:background="@android:color/transparent"
+        android:text="Nova Nota" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar3"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/listView" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="560dp"
+        android:layout_weight="1.79"
+        android:background="?attr/colorBackgroundFloating"
+        android:elevation="4dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dataUser"
+        android:layout_marginTop="20dp"
+        android:layout_margin="20dp"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:text="Parabéns! Você visitou XX dias consecutivos à palavra de Deus!"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="560dp"
+        android:orientation="horizontal"
+        android:elevation="5dp"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/btLeitura"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:onClick="clickLeitura"
+            android:padding="12dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/biblia2"
+            android:layout_marginLeft="39dp"
+            android:layout_marginStart="39dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/btPerfil"
+            android:layout_toEndOf="@+id/btPerfil" />
+
+        <ImageButton
+            android:id="@+id/btPerfil"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:onClick="clickPerfil"
+            android:padding="12dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/usuario2" />
+
+        <ImageButton
+            android:id="@+id/btPlan"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:background="@android:color/transparent"
+            android:onClick="clickPlan"
+            android:adjustViewBounds="true"
+            android:padding="12dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/data2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageButton
+            android:id="@+id/btNotas"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="42dp"
+            android:layout_marginRight="42dp"
+            android:layout_toLeftOf="@+id/btPlan"
+            android:layout_toStartOf="@+id/btPlan"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:onClick="clickNotas"
+            android:padding="12dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/notas1" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

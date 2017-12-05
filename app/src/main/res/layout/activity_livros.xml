@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.marco.biblia.Leitura.Livros">
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:textColor="#000"
+        android:elevation="3dp"
+        android:text="LIVROS"
+        android:textSize="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_alignBottom="@+id/toolbar2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFF"
+        android:elevation="2dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <Button
+        android:id="@+id/btNovo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/toolbar2"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="18dp"
+        android:text="Novo Testamento" />
+
+    <Button
+        android:id="@+id/btVelho"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/relativeLayout2"
+        android:layout_alignLeft="@+id/textView20"
+        android:layout_alignStart="@+id/textView20"
+        android:text="Antigo Testamento" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="560dp"
+        android:layout_weight="1.79"
+        android:background="?attr/colorBackgroundFloating"
+        android:elevation="4dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="560dp"
+        android:orientation="horizontal"
+        android:elevation="5dp"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/btLeitura"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="39dp"
+            android:layout_marginStart="39dp"
+            android:layout_toEndOf="@+id/btPerfil"
+            android:layout_toRightOf="@+id/btPerfil"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:onClick="clickLeitura"
+            android:padding="12dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/biblia1" />
+
+        <ImageButton
+            android:id="@+id/btPerfil"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:onClick="clickPerfil"
+            android:padding="12dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/usuario2" />
+
+        <ImageButton
+            android:id="@+id/btPlan"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:background="@android:color/transparent"
+            android:onClick="clickPlan"
+            android:adjustViewBounds="true"
+            android:padding="12dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/data2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageButton
+            android:id="@+id/btNotas"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:background="@android:color/transparent"
+            android:onClick="clickNotas"
+            android:adjustViewBounds="true"
+            android:padding="12dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/notas2"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/btPlan"
+            android:layout_toStartOf="@+id/btPlan"
+            android:layout_marginRight="42dp"
+            android:layout_marginEnd="42dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btNovo"
+        android:id="@+id/relativeLayout2">
+
+        <ListView
+            android:id="@+id/lvLivros"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="40dp"
+            android:divider="@android:color/transparent"
+            />
+    </RelativeLayout>
+
+
+</RelativeLayout>

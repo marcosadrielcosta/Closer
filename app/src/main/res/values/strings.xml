@@ -1,0 +1,486 @@
+<resources>
+    <string name="app_name">Bíblia Closer</string>
+    <string-array name="menu">
+        <item>Editar</item>
+        <item>Deletar</item>
+    </string-array>
+
+    <string-array name="randomVer">
+        <item><font size="18">Livro da geração de Jesus Cristo, filho de Davi, filho de Abraão. <br>Gênesis 1:2</br></font></item>
+        <item><font size="18">Versículo 1</font></item>
+        <item><font size="18">Versículo 2</font></item>
+        <item><font size="18">Versículo 3</font></item>
+        <item><font size="18">E estavam ali assentados alguns dos escribas, que arrazoavam em seus corações, dizendo: <br>Gênesis 1:6</br></font></item>
+    </string-array>
+
+    <string-array name="versao">
+        <item><font size="10">ARA</font></item>
+        <item><font size="10">NTLH</font></item>
+    </string-array>
+
+    <string-array name="livros">
+        <item><font size="11"><b>GÊNESIS</b></font></item>
+        <item><font size="11"><b>ÊXODO</b></font></item>
+        <item><font size="11"><b>LEVÍTICO</b></font></item>
+        <item><font size="11"><b>NÚMEROS</b></font></item>
+        <item><font size="11"><b>DEUTERONOMIO</b></font></item>
+        <item><font size="11"><b>JOSUÉ</b></font></item>
+        <item><font size="11"><b>JUÍZES</b></font></item>
+        <item><font size="11"><b>RUTE</b></font></item>
+        <item><font size="11"><b>1 SAMUEL</b></font></item>
+        <item><font size="11"><b>2 SAMUEL</b></font></item>
+        <item><font size="11"><b>1 REIS</b></font></item>
+        <item><font size="11"><b>2 REIS</b></font></item>
+        <item><font size="11"><b>1 CRÔNICAS</b></font></item>
+        <item><font size="11"><b>2 CRÔNICAS</b></font></item>
+        <item><font size="11"><b>ESDRAS</b></font></item>
+        <item><font size="11"><b>NEEMIAS</b></font></item>
+        <item><font size="11"><b>ESTER</b></font></item>
+        <item><font size="11"><b>JÓ</b></font></item>
+        <item><font size="11"><b>SALMOS</b></font></item>
+        <item><font size="11"><b>PROVÉRBIOS</b></font></item>
+        <item><font size="11"><b>ECLESIASTES </b></font></item>
+        <item><font size="11"><b>CÂNTICOS DOS CÂNTICOS</b></font></item>
+        <item><font size="11"><b>ISAÍAS</b></font></item>
+        <item><font size="11"><b>JEREMIAS</b></font></item>
+        <item><font size="11"><b>LAMENTAÇÕES</b></font></item>
+        <item><font size="11"><b>EZEQUIEL</b></font></item>
+        <item><font size="11"><b>DANIEL</b></font></item>
+        <item><font size="11"><b>OSEIAS</b></font></item>
+        <item><font size="11"><b>JOEL</b></font></item>
+        <item><font size="11"><b>AMÓS</b></font></item>
+        <item><font size="11"><b>OBADIAS</b></font></item>
+        <item><font size="11"><b>JONAS</b></font></item>
+        <item><font size="11"><b>MIQUEIAS</b></font></item>
+        <item><font size="11"><b>NAUM</b></font></item>
+        <item><font size="11"><b>HABACUQUE </b></font></item>
+        <item><font size="11"><b>SOFONIAS</b></font></item>
+        <item><font size="11"><b>AGEU</b></font></item>
+        <item><font size="11"><b>ZACARIAS</b></font></item>
+        <item><font size="11"><b>MALAQUIAS</b></font></item>
+        <item><font size="11"><b>MATEUS</b></font></item>
+        <item><font size="11"><b>MARCOS</b></font></item>
+        <item><font size="11"><b>LUCAS</b></font></item>
+        <item><font size="11"><b>JOÃO</b></font></item>
+        <item><font size="11"><b>ATOS</b></font></item>
+        <item><font size="11"><b>ROMANOS</b></font></item>
+        <item><font size="11"><b>1 CORÍNTIOS</b></font></item>
+        <item><font size="11"><b>2 CORÍNTIOS</b></font></item>
+        <item><font size="11"><b>GÁLATAS</b></font></item>
+        <item><font size="11"><b>EFÉSIOS</b></font></item>
+        <item><font size="11"><b>FILIPENSES</b></font></item>
+        <item><font size="11"><b>COLOSSENSES</b></font></item>
+        <item><font size="11"><b>1 TESSALONICENSES</b></font></item>
+        <item><font size="11"><b>2 TESSALONICENSES</b></font></item>
+        <item><font size="11"><b>1 TIMÓTEO</b></font></item>
+        <item><font size="11"><b>2 TIMÓTEO</b></font></item>
+        <item><font size="11"><b>TITO</b></font></item>
+        <item><font size="11"><b>FILEMOM</b></font></item>
+        <item><font size="11"><b>HEBREUS</b></font></item>
+        <item><font size="11"><b>TIAGO</b></font></item>
+        <item><font size="11"><b>1 PEDRO</b></font></item>
+        <item><font size="11"><b>2 PEDRO</b></font></item>
+        <item><font size="11"><b>1 JOÃO</b></font></item>
+        <item><font size="11"><b>2 JOÃO</b></font></item>
+        <item><font size="11"><b>3 JOÃO</b></font></item>
+        <item><font size="11"><b>JUDAS</b></font></item>
+        <item><font size="11"><b>APOCALIPSE</b></font></item>
+    </string-array>
+
+    MATEUS**********************************************************************************************
+    <string-array name="capMateus">
+        <item><font color="black" size="10">1</font></item>
+        <item><font color="black" size="10">2</font></item>
+        <item><font color="black" size="10">3</font></item>
+        <item><font color="black" size="10">4</font></item>
+        <item><font color="black" size="10">5</font></item>
+        <item><font color="black" size="10">6</font></item>
+        <item><font color="black" size="10">7</font></item>
+        <item><font color="black" size="10">8</font></item>
+        <item><font color="black" size="10">9</font></item>
+        <item><font color="black" size="10">10</font></item>
+        <item><font color="black" size="10">11</font></item>
+        <item><font color="black" size="10">12</font></item>
+        <item><font color="black" size="10">13</font></item>
+        <item><font color="black" size="10">14</font></item>
+        <item><font color="black" size="10">15</font></item>
+        <item><font color="black" size="10">16</font></item>
+        <item><font color="black" size="10">17</font></item>
+        <item><font color="black" size="10">18</font></item>
+        <item><font color="black" size="10">19</font></item>
+        <item><font color="black" size="10">20</font></item>
+        <item><font color="black" size="10">21</font></item>
+        <item><font color="black" size="10">22</font></item>
+        <item><font color="black" size="10">23</font></item>
+        <item><font color="black" size="10">24</font></item>
+        <item><font color="black" size="10">25</font></item>
+        <item><font color="black" size="10">26</font></item>
+        <item><font color="black" size="10">27</font></item>
+        <item><font color="black" size="10">28</font></item>
+    </string-array>
+
+    <string-array name="mateus1">
+        <item><font size="21"><b><i>        O evangelho de Mateus</i></b></font></item>
+        <item><font size="18"><b>Os antepassados de Jesus Cristo</b></font></item>
+        <item><font color="gray" size="1">1 </font> <font size="18">Livro da geração de Jesus Cristo, filho de Davi, filho de Abraão.</font></item>
+        <item><font color="gray" size="14">2 </font> <font size="18">Abraão gerou a Isaque; e Isaque gerou a Jacó; e Jacó gerou a Judá e a seus irmãos;</font></item>
+        <item><font color="gray" size="14">3 </font> <font size="18">E Judá gerou, de Tamar, a Perez e a Zerá; e Perez gerou a Esrom; e Esrom gerou a Arão;</font></item>
+        <item><font color="gray" size="14">4 </font> <font size="18">E Arão gerou a Aminadabe; e Aminadabe gerou a Naassom; e Naassom gerou a Salmom;</font></item>
+        <item><font color="gray" size="14">5 </font> <font size="18">E Salmom gerou, de Raabe, a Boaz; e Boaz gerou de Rute a Obede; e Obede gerou a Jessé;</font></item>
+        <item><font color="gray" size="14">6 </font> <font size="18">E Jessé gerou ao rei Davi; e o rei Davi gerou a Salomão da que foi mulher de Urias.</font></item>
+        <item><font color="gray" size="14">7 </font> <font size="18">E Salomão gerou a Roboão; e Roboão gerou a Abias; e Abias gerou a Asa;</font></item>
+        <item><font color="gray" size="14">8 </font> <font size="18">E Asa gerou a Josafá; e Josafá gerou a Jorão; e Jorão gerou a Uzias;</font></item>
+        <item><font color="gray" size="14">9 </font> <font size="18">E Uzias gerou a Jotão; e Jotão gerou a Acaz; e Acaz gerou a Ezequias;</font></item>
+        <item><font color="gray" size="14">10 </font> <font size="18">E Ezequias gerou a Manassés; e Manassés gerou a Amom; e Amom gerou a Josias;</font></item>
+    </string-array>
+
+    <string-array name="mateus1ara">
+        <item><font color="g4ray" size="1">1</font> <font size="18">Livro da genealogia de Jesus Cristo, filho de Davi, filho de Abraão.</font></item>
+        <item>2 Abraão gerou a Isaque; Isaque, a Jacó; Jacó, a Judá e a seus irmãos;</item>
+        <item>3 Judá gerou de Tamar a Perez e a Zera; Perez gerou a Esrom; Esrom, a Arão;</item>
+        4 Arão gerou a Aminadabe; Aminadabe, a Naassom; Naassom, a Salmom;
+        5 Salmom gerou de Raabe a Boaz; este, de Rute, gerou a Obede; e Obede, a Jessé;
+        6 Jessé gerou ao rei Davi; e o rei Davi, a Salomão, da que fora mulher de Urias;
+        7 Salomão gerou a Roboão; Roboão, a Abias; Abias, a Asa;
+        8 Asa gerou a Josafá; Josafá, a Jorão; Jorão, a Uzias;
+        9 Uzias gerou a Jotão; Jotão, a Acaz; Acaz, a Ezequias;
+        10 Ezequias gerou a Manassés; Manassés, a Amom; Amom, a Josias;
+    </string-array>
+
+    <string-array name="mateus2">
+        <item><font color="gray" size="14">1 </font> <font size="18">E, tendo nascido Jesus em Belém de Judéia, no tempo do rei Herodes, eis que uns magos vieram do oriente a Jerusalém,</font></item>
+        <item><font color="gray" size="14">2 </font> <font size="18">Dizendo: Onde está aquele que é nascido rei dos judeus? porque vimos a sua estrela no oriente, e viemos a adorá-lo.</font></item>
+        <item><font color="gray" size="14">3 </font> <font size="18">E o rei Herodes, ouvindo isto, perturbou-se, e toda Jerusalém com ele.</font></item>
+        <item><font color="gray" size="14">4 </font> <font size="18">E, congregados todos os príncipes dos sacerdotes, e os escribas do povo, perguntou-lhes onde havia de nascer o Cristo.</font></item>
+        <item><font color="gray" size="14">5 </font> <font size="18">E eles lhe disseram: Em Belém de Judéia; porque assim está escrito pelo profeta:</font></item>
+        <item><font color="gray" size="14">6 </font> <font size="18">E tu, Belém, terra de Judá,De modo nenhum és a menor entre as capitais de Judá;porque de ti sairá o Guia que há de apascentar o meu povo Israel.</font></item>
+        <item><font color="gray" size="14">7 </font> <font size="18">Então Herodes, chamando secretamente os magos, inquiriu exatamente deles acerca do tempo em que a estrela lhes aparecera.</font></item>
+        <item><font color="gray" size="14">8 </font> <font size="18">E, enviando-os a Belém, disse: Ide, e perguntai diligentemente pelo menino e, quando o achardes, participai-mo, para que também eu vá e o adore.</font></item>
+        <item><font color="gray" size="14">9 </font> <font size="18">E, tendo eles ouvido o rei, partiram; e eis que a estrela, que tinham visto no oriente, ia adiante deles, até que, chegando, se deteve sobre o lugar onde estava o menino.</font></item>
+        <item><font color="gray" size="14">10 </font> <font size="18">E, vendo eles a estrela, regoziram-se muito com grande alegria.</font></item>
+
+    </string-array>
+
+    <string-array name="mateus3">
+        <item><font color="gray" size="14">1 </font> <font size="18">E, naqueles dias, apareceu João o Batista pregando no deserto da Judéia,</font></item>
+        <item><font color="gray" size="14">2 </font> <font size="18">E dizendo: Arrependei-vos, porque é chegado o reino dos céus.</font></item>
+        <item><font color="gray" size="14">3 </font> <font size="18">Porque este é o anunciado pelo profeta Isaías, que disse:Voz do que clama no deserto:Preparai o caminho do Senhor,Endireitai as suas veredas.</font></item>
+        <item><font color="gray" size="14">4 </font> <font size="18">E este João tinha as suas vestes de pelos de camelo, e um cinto de couro em torno de seus lombos; e alimentava-se de gafanhotos e de mel silvestre.</font></item>
+        <item><font color="gray" size="14">5 </font> <font size="18">Então ia ter com ele Jerusalém, e toda a Judéia, e toda a província adjacente ao Jordão;</font></item>
+        <item><font color="gray" size="14">6 </font> <font size="18">E eram por ele batizados no rio Jordão, confessando os seus pecados.</font></item>
+        <item><font color="gray" size="14">7 </font> <font size="18">E, vendo ele muitos dos fariseus e dos saduceus, que vinham ao seu batismo, dizia-lhes: Raça de víboras, quem vos ensinou a fugir da ira futura?</font></item>
+        <item><font color="gray" size="14">8 </font> <font size="18">Produzi, pois, frutos dignos de arrependimento;</font></item>
+        <item><font color="gray" size="14">9 </font> <font size="18">E não presumais, de vós mesmos, dizendo: Temos por pai a Abraão; porque eu vos digo que, mesmo destas pedras, Deus pode suscitar filhos a Abraão.</font></item>
+        <item><font color="gray" size="14">10 </font> <font size="18">E também agora está posto o machado à raiz das árvores; toda a árvore, pois, que não produz bom fruto, é cortada e lançada no fogo.</font></item>
+
+    </string-array>
+    MARCOS**********************************************************************************************
+    <string-array name="capMarcos">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+
+    <string-array name="marcos1">
+        <item><font color="gray" size="14">1 </font> <font size="18">Princípio do Evangelho de Jesus Cristo, Filho de Deus;</font></item>
+        <item><font color="gray" size="14">2 </font> <font size="18">Como está escrito nos profetas: Eis que eu envio o meu anjo ante a tua face, o qual preparará o teu caminho diante de ti.</font></item>
+        <item><font color="gray" size="14">3 </font> <font size="18">Voz do que clama no deserto: Preparai o caminho do Senhor, Endireitai as suas veredas.</font></item>
+        <item><font color="gray" size="14">4 </font> <font size="18">Apareceu João batizando no deserto, e pregando o batismo de arrependimento, para remissão dos pecados.</font></item>
+        <item><font color="gray" size="14">5 </font> <font size="18">E toda a província da Judéia e os de Jerusalém iam ter com ele; e todos eram batizados por ele no rio Jordão, confessando os seus pecados.</font></item>
+        <item><font color="gray" size="14">6 </font> <font size="18">E João andava vestido de pêlos de camelo, e com um cinto de couro em redor de seus lombos, e comia gafanhotos e mel silvestre.</font></item>
+        <item><font color="gray" size="14">7 </font> <font size="18">E pregava, dizendo: Após mim vem aquele que é mais forte do que eu, do qual não sou digno de, abaixando-me, desatar a correia das suas alparcas.</font></item>
+        <item><font color="gray" size="14">8 </font> <font size="18">Eu, em verdade, tenho-vos batizado com água; ele, porém, vos batizará com o Espírito Santo.</font></item>
+        <item><font color="gray" size="14">9 </font> <font size="18">E aconteceu naqueles dias que Jesus, tendo ido de Nazaré da Galiléia, foi batizado por João, no Jordão.</font></item>
+        <item><font color="gray" size="14">10 </font> <font size="18">E, logo que saiu da água, viu os céus abertos, e o Espírito, que como pomba descia sobre ele.</font></item>
+
+    </string-array>
+
+    <string-array name="marcos2">
+        <item><font color="gray" size="14">1 </font> <font size="18">E alguns dias depois entrou outra vez em Cafarnaum, e soube-se que estava em casa.</font></item>
+        <item><font color="gray" size="14">2 </font> <font size="18">E logo se ajuntaram tantos, que nem ainda nos lugares junto à porta cabiam; e anunciava-lhes a palavra.</font></item>
+        <item><font color="gray" size="14">3 </font> <font size="18">E vieram ter com ele conduzindo um paralítico, trazido por quatro.</font></item>
+        <item><font color="gray" size="14">4 </font> <font size="18">E, não podendo aproximar-se dele, por causa da multidão, descobriram o telhado onde estava, e, fazendo um buraco, baixaram o leito em que jazia o paralítico.</font></item>
+        <item><font color="gray" size="14">5 </font> <font size="18">E Jesus, vendo a fé deles, disse ao paralítico: Filho, perdoados estão os teus pecados.</font></item>
+        <item><font color="gray" size="14">6 </font> <font size="18">E estavam ali assentados alguns dos escribas, que arrazoavam em seus corações, dizendo:</font></item>
+        <item><font color="gray" size="14">7 </font> <font size="18">Por que diz este assim blasfêmias? Quem pode perdoar pecados, senão Deus?</font></item>
+        <item><font color="gray" size="14">8 </font> <font size="18">E Jesus, conhecendo logo em seu espírito que assim arrazoavam entre si, lhes disse: Por que arrazoais sobre estas coisas em vossos corações?</font></item>
+        <item><font color="gray" size="14">9 </font> <font size="18">Qual é mais fácil? dizer ao paralítico: Estão perdoados os teus pecados; ou dizer-lhe: Levanta-te, e toma o teu leito, e anda?</font></item>
+        <item><font color="gray" size="14">10 </font> <font size="18">Ora, para que saibais que o Filho do homem tem na terra poder para perdoar pecados (disse ao paralítico),</font></item>
+
+    </string-array>
+    <string name="title_activity_planos">Planos</string>
+
+    <string-array name="velho">
+        <item>Gênesis</item>
+        <item>Êxodo</item>
+        <item>Levítico</item>
+        <item>Números</item>
+        <item>Deuteronómio</item>
+        <item>Josué</item>
+        <item>Juízes</item>
+        <item>Rute</item>
+        <item>1 Samuel</item>
+        <item>2 Samuel</item>
+        <item>1 Reis</item>
+        <item>2 Reis</item>
+        <item>1 Crônicas</item>
+        <item>2 Crônicas</item>
+        <item>Esdras</item>
+        <item>Neemias</item>
+        <item>Ester</item>
+        <item>Jó</item>
+        <item>Salmos</item>
+        <item>Provérbios</item>
+        <item>Eclesiastes </item>
+        <item>Cânticos dos Cânticos</item>
+        <item>Isaías</item>
+        <item>Jeremias</item>
+        <item>Lamentações</item>
+        <item>Ezequiel</item>
+        <item>Daniel</item>
+        <item>Oseias</item>
+        <item>Joel</item>
+        <item>Amós</item>
+        <item>Obadias</item>
+        <item>Jonas</item>
+        <item>Miqueias</item>
+        <item>Naum</item>
+        <item>Habacuque </item>
+        <item>Sofonias</item>
+        <item>Ageu</item>
+        <item>Zacarias</item>
+        <item>Malaquias</item>
+    </string-array>
+
+    <string-array name="novo">
+        <item>Mateus</item>
+        <item>Marcos</item>
+        <item>Lucas</item>
+        <item>João</item>
+        <item>Atos</item>
+        <item>Romanos</item>
+        <item>1 Coríntios</item>
+        <item>2 Coríntios</item>
+        <item>Gálatas</item>
+        <item>Efésios</item>
+        <item>Filipenses</item>
+        <item>Colossenses</item>
+        <item>1 Tessalonicenses</item>
+        <item>2 Tessalonicenses</item>
+        <item>1 Timóteo</item>
+        <item>2 Timóteo</item>
+        <item>Tito</item>
+        <item>Filemom</item>
+        <item>Hebreus</item>
+        <item>Tiago</item>
+        <item>1 Pedro</item>
+        <item>2 Pedro</item>
+        <item>1 João</item>
+        <item>2 João</item>
+        <item>3 João</item>
+        <item>Judas</item>
+        <item>Apocalipse</item>
+    </string-array>
+
+    <string-array name="capGenesis">
+        <item><font size="12">1</font></item>
+        <item><font size="12">2</font></item>
+        <item><font size="12">3</font></item>
+        <item><font size="12">4</font></item>
+        <item><font size="12">5</font></item>
+        <item><font size="12">6</font></item>
+        <item><font size="12">7</font></item>
+        <item><font size="12">8</font></item>
+        <item><font size="12">9</font></item>
+        <item><font size="12">10</font></item>
+        <item><font size="12">11</font></item>
+        <item><font size="12">12</font></item>
+        <item><font size="12">13</font></item>
+        <item><font size="12">14</font></item>
+        <item><font size="12">15</font></item>
+        <item><font size="12">16</font></item>
+        <item><font size="12">17</font></item>
+        <item><font size="12">18</font></item>
+        <item><font size="12">19</font></item>
+        <item><font size="12">20</font></item>
+        <item><font size="12">21</font></item>
+        <item><font size="12">22</font></item>
+        <item><font size="12">23</font></item>
+        <item><font size="12">24</font></item>
+        <item><font size="12">25</font></item>
+        <item><font size="12">26</font></item>
+        <item><font size="12">27</font></item>
+    </string-array>
+
+    <string-array name="capExodo">
+        <item><font size="12">1</font></item>
+        <item><font size="12">2</font></item>
+        <item><font size="12">3</font></item>
+        <item><font size="12">4</font></item>
+        <item><font size="12">5</font></item>
+        <item><font size="12">6</font></item>
+        <item><font size="12">7</font></item>
+        <item><font size="12">8</font></item>
+        <item><font size="12">9</font></item>
+        <item><font size="12">10</font></item>
+        <item><font size="12">11</font></item>
+        <item><font size="12">12</font></item>
+        <item><font size="12">13</font></item>
+        <item><font size="12">14</font></item>
+        <item><font size="12">15</font></item>
+        <item><font size="12">16</font></item>
+        <item><font size="12">17</font></item>
+        <item><font size="12">18</font></item>
+        <item><font size="12">19</font></item>
+        <item><font size="12">20</font></item>
+        <item><font size="12">21</font></item>
+        <item><font size="12">22</font></item>
+        <item><font size="12">23</font></item>
+        <item><font size="12">24</font></item>
+        <item><font size="12">25</font></item>
+        <item><font size="12">26</font></item>
+        <item><font size="12">27</font></item>
+        <item><font size="12">28</font></item>
+        <item><font size="12">29</font></item>
+        <item><font size="12">30</font></item>
+        <item><font size="12">31</font></item>
+        <item><font size="12">32</font></item>
+        <item><font size="12">33</font></item>
+        <item><font size="12">34</font></item>
+        <item><font size="12">35</font></item>
+        <item><font size="12">36</font></item>
+        <item><font size="12">37</font></item>
+        <item><font size="12">38</font></item>
+        <item><font size="12">39</font></item>
+        <item><font size="12">40</font></item>
+    </string-array>
+
+    <string-array name="genesis1">
+        <item><font color="black" size="21"><b><i>        Gênesis</i></b></font></item>
+        <item><font color="black" size="18"><b>A criação do Universo e da raça humana</b></font></item>
+        <item><font color="gray" size="14">1 </font> <font color="black" size="18">No princípio Deus criou os céus e a terra.</font></item>
+        <item><font color="gray" size="14">2 </font> <font color="black" size="18">Era a terra sem forma e vazia; trevas cobriam a face do abismo, e o Espírito de Deus se movia sobre a face das águas.</font></item>
+        <item><font color="gray" size="14">3 </font> <font color="black" size="18">Disse Deus: "Haja luz", e houve luz.</font></item>
+        <item><font color="gray" size="14">4 </font> <font color="black" size="18">Deus viu que a luz era boa, e separou a luz das trevas.</font></item>
+        <item><font color="gray" size="14">5 </font> <font color="black" size="18">Deus chamou à luz dia, e às trevas chamou noite. Passaram-se a tarde e a manhã; esse foi o primeiro dia.</font></item>
+        <item><font color="gray" size="14">6 </font> <font color="black" size="18">Depois disse Deus: "Haja entre as águas um firmamento que separe águas de águas".</font></item>
+        <item><font color="gray" size="14">7 </font> <font color="black" size="18">Então Deus fez o firmamento e separou as águas que estavam embaixo do firmamento das que estavam por cima. E assim foi.</font></item>
+        <item><font color="gray" size="14">8 </font> <font color="black" size="18">Ao firmamento Deus chamou céu. Passaram-se a tarde e a manhã; esse foi o segundo dia.</font></item>
+        <item><font color="gray" size="14">9 </font> <font color="black" size="18">E disse Deus: "Ajuntem-se num só lugar as águas que estão debaixo do céu, e apareça a parte seca". E assim foi.</font></item>
+        <item><font color="gray" size="14">10 </font> <font color="black" size="18">À parte seca Deus chamou terra, e chamou mares ao conjunto das águas. E Deus viu que ficou bom.</font></item>
+    </string-array>
+
+    <string-array name="genesis1ara">
+        <item><font color="black" size="21"><b><i>        Gênesis</i></b></font></item>
+        <item><font color="black" size="18"><b>A criação dos céus e da terra e de tudo o que neles há</b></font></item>
+        <item><font color="gray" size="14">1 </font> <font color="black" size="18">No princípio, criou Deus os céus e a terra</font></item>
+        <item><font color="gray" size="14">2 </font> <font color="black" size="18">A terra, porém, estava sem forma e vazia; havia trevas sobre a face do abismo, e o Espírito de Deus pairava por sobre as águas.</font></item>
+        <item><font color="gray" size="14">3 </font> <font color="black" size="18">Disse Deus: Haja luz; e houve luz.</font></item>
+        <item><font color="gray" size="14">4 </font> <font color="black" size="18">E viu Deus que a luz era boa; e fez separação entre a luz e as trevas</font></item>
+        <item><font color="gray" size="14">5 </font> <font color="black" size="18">Chamou Deus à luz Dia e às trevas, Noite. Houve tarde e manhã, o primeiro dia.</font></item>
+        <item><font color="gray" size="14">6 </font> <font color="black" size="18">E disse Deus: Haja firmamento no meio das águas e separação entre águas e águas. </font></item>
+        <item><font color="gray" size="14">7 </font> <font color="black" size="18">Fez, pois, Deus o firmamento e separação entre as águas debaixo do firmamento e as águas sobre o firmamento. E assim se fez.</font></item>
+        <item><font color="gray" size="14">8 </font> <font color="black" size="18">E chamou Deus ao firmamento Céus. Houve tarde e manhã, o segundo dia.</font></item>
+        <item><font color="gray" size="14">9 </font> <font color="black" size="18">Disse também Deus: Ajuntem-se as águas debaixo dos céus num só lugar, e apareça a porção seca. E assim se fez. </font></item>
+        <item><font color="gray" size="14">10 </font> <font color="black" size="18">À porção seca chamou Deus Terra e ao ajuntamento das águas, Mares. E viu Deus que isso era bom.</font></item>
+    </string-array>
+
+    <string-array name="genesis2">
+        <item><font color="gray" size="14">1 </font> <font color="black" size="18">Assim terminou a criação do céu, e da terra, e de tudo o que há neles.</font></item>
+        <item><font color="gray" size="14">2 </font> <font color="black" size="18">No sétimo dia Deus acabou de fazer todas as coisas e descansou de todo o trabalho que havia feito. </font></item>
+        <item><font color="gray" size="14">3 </font> <font color="black" size="18">Então abençoou o sétimo dia e o separou como um dia sagrado, pois nesse dia ele acabou de fazer todas as coisas e descansou.</font></item>
+        <item><font color="gray" size="14">4 </font> <font color="black" size="18">E foi assim que o céu e a terra foram criados. Quando o Senhor Deus fez o céu e a terra,</font></item>
+        <item><font color="black" size="18"><b>O jardim do Éden</b></font></item>
+        <item><font color="gray" size="14">5 </font> <font color="black" size="18">não haviam brotado nem capim nem plantas, pois o Senhor ainda não tinha mandado chuvas, e não havia ninguém para cultivar a terra.</font></item>
+        <item><font color="gray" size="14">6 </font> <font color="black" size="18">Mas da terra saía uma corrente de água que regava o chão.</font></item>
+        <item><font color="gray" size="14">7 </font> <font color="black" size="18">Então, do pó da terra, o Senhor formou o ser humano . O Senhor soprou no nariz dele uma respiração de vida, e assim ele se tornou um ser vivo.</font></item>
+        <item><font color="gray" size="14">8 </font> <font color="black" size="18">Depois o Senhor Deus plantou um jardim na região do Éden, no Leste, e ali pôs o ser humano que ele havia formado. </font></item>
+        <item><font color="gray" size="14">9 </font> <font color="black" size="18">O Senhor fez com que ali crescessem árvores lindas de todos os tipos, que davam frutas boas de se comer. No meio do jardim ficava a árvore que dá vida e também a árvore que dá o conhecimento do bem e do mal.</font></item>
+        <item><font color="gray" size="14">10 </font> <font color="black" size="18">No Éden nascia um rio que regava o jardim e que, saindo dali, se dividia, formando quatro rios.</font></item>
+    </string-array>
+
+    <string-array name="genesis2ara">
+        <item><font color="gray" size="14">1 </font> <font color="black" size="18">Assim, pois, foram acabados os céus e a terra e todo o seu exército.</font></item>
+        <item><font color="gray" size="14">2 </font> <font color="black" size="18">E, havendo Deus terminado no dia sétimo a sua obra, que fizera, descansou nesse dia de toda a sua obra que tinha feito.</font></item>
+        <item><font color="gray" size="14">3 </font> <font color="black" size="18">E abençoou Deus o dia sétimo e o santificou; porque nele descansou de toda a obra que, como Criador, fizera.</font></item>
+        <item><font color="black" size="18"><b>A formação do homem</b></font></item>
+        <item><font color="gray" size="14">4 </font> <font color="black" size="18">Esta é a gênese dos céus e da terra quando foram criados, quando o Senhor Deus os criou.</font></item>
+        <item><font color="gray" size="14">5 </font> <font color="black" size="18">Não havia ainda nenhuma planta do campo na terra, pois ainda nenhuma erva do campo havia brotado; porque o Senhor Deus não fizera chover sobre a terra, e também não havia homem para lavrar o solo.</font></item>
+        <item><font color="gray" size="14">6 </font> <font color="black" size="18">Mas uma neblina subia da terra e regava toda a superfície do solo.</font></item>
+        <item><font color="gray" size="14">7 </font> <font color="black" size="18">Então, formou o Senhor Deus ao homem do pó da terra e lhe soprou nas narinas o fôlego de vida, e o homem passou a ser alma vivente.</font></item>
+        <item><font color="gray" size="14">8 </font> <font color="black" size="18">E plantou o Senhor Deus um jardim no Éden, na direção do Oriente, e pôs nele o homem que havia formado.</font></item>
+        <item><font color="gray" size="14">9 </font> <font color="black" size="18">Do solo fez o Senhor Deus brotar toda sorte de árvores agradáveis à vista e boas para alimento; e também a árvore da vida no meio do jardim e a árvore do conhecimento do bem e do mal. </font></item>
+        <item><font color="gray" size="14">10 </font> <font color="black" size="18">E saía um rio do Éden para regar o jardim e dali se dividia, repartindo-se em quatro braços.</font></item>
+    </string-array>
+
+    <string-array name="exodo1">
+        <item><font color="black" size="21"><b><i>        Êxodo</i></b></font></item>
+        <item><font color="black" size="18"><b>Os sofrimentos dos israelitas no Egito</b></font></item>
+        <item><font color="gray" size="14">1 </font> <font color="black" size="18">São estes os nomes dos filhos de Jacó que foram com ele para o Egito, cada um com a sua família: </font></item>
+        <item><font color="gray" size="14">2 </font> <font color="black" size="18">Rúben, Simeão, Levi, Judá, </font></item>
+        <item><font color="gray" size="14">3 </font> <font color="black" size="18">Issacar, Zebulom, Benjamim,</font></item>
+        <item><font color="gray" size="14">4 </font> <font color="black" size="18">Dã, Naftali, Gade e Aser. </font></item>
+        <item><font color="gray" size="14">5 </font> <font color="black" size="18">Os descendentes diretos de Jacó eram setenta pessoas ao todo. José, o outro filho, já estava no Egito.</font></item>
+        <item><font color="gray" size="14">6 </font> <font color="black" size="18">Mais tarde José e todos os seus irmãos morreram, e também todos os outros daquela geração.</font></item>
+        <item><font color="gray" size="14">7 </font> <font color="black" size="18">Mas os descendentes de Jacó, os israelitas, tiveram muitos filhos e aumentaram tanto, que se tornaram poderosos. E eles se espalharam por todo o Egito.</font></item>
+        <item><font color="gray" size="14">8 </font> <font color="black" size="18">Depois o Egito teve um novo rei que não sabia nada a respeito de José.</font></item>
+        <item><font color="gray" size="14">9 </font> <font color="black" size="18">Ele disse ao seu povo: — Vejam! O povo de Israel é forte e está aumentando mais depressa do que nós. </font></item>
+        <item><font color="gray" size="14">10 </font> <font color="black" size="18">Em caso de guerra, eles poderiam se unir com os nossos inimigos, lutariam contra nós e sairiam do país. Precisamos achar um jeito de não deixar que eles se tornem ainda mais numerosos.</font></item>
+    </string-array>
+
+    <string-array name="exodo1ara">
+        <item><font color="black" size="21"><b><i>        Êxodo</i></b></font></item>
+        <item><font color="black" size="18"><b>Os sofrimentos dos israelitas no Egito</b></font></item>
+        <item><font color="gray" size="14">1 </font> <font color="black" size="18">São estes os nomes dos filhos de Israel que entraram com Jacó no Egito; cada um entrou com sua família: </font></item>
+        <item><font color="gray" size="14">2 </font> <font color="black" size="18">Rúben, Simeão, Levi e Judá, </font></item>
+        <item><font color="gray" size="14">3 </font> <font color="black" size="18">Rúben, Simeão, Levi e Judá, </font></item>
+        <item><font color="gray" size="14">4 </font> <font color="black" size="18">Dã, Naftali, Gade e Aser. </font></item>
+        <item><font color="gray" size="14">5 </font> <font color="black" size="18">Todas as pessoas, pois, que descenderam de Jacó foram setenta; José, porém, estava no Egito. </font></item>
+        <item><font color="gray" size="14">6 </font> <font color="black" size="18">Faleceu José, e todos os seus irmãos, e toda aquela geração. </font></item>
+        <item><font color="gray" size="14">7 </font> <font color="black" size="18">Mas os filhos de IsraelAt 7.17 foram fecundos, e aumentaram muito, e se multiplicaram, e grandemente se fortaleceram, de maneira que a terra se encheu deles.</font></item>
+        <item><font color="gray" size="14">8 </font> <font color="black" size="18">Entrementes, se levantou novo rei sobre o Egito, que não conhecera a José.</font></item>
+        <item><font color="gray" size="14">9 </font> <font color="black" size="18">Ele disse ao seu povo: Eis que o povo dos filhos de Israel é mais numeroso e mais forte do que nós. </font></item>
+        <item><font color="gray" size="14">10 </font> <font color="black" size="18">Eia, usemos de astúcia para com ele, para que não se multiplique, e seja o caso que, vindo guerra, ele se ajunte com os nossos inimigos, peleje contra nós e saia da terra.</font></item>
+    </string-array>
+
+    <string-array name="exodo2">
+        <item><font color="black" size="18"><b>O nascimento de Moisés</b></font></item>
+        <item><font color="gray" size="14">1 </font> <font color="black" size="18">Um homem e uma mulher da tribo de Levi casaram.</font></item>
+        <item><font color="gray" size="14">2 </font> <font color="black" size="18">A mulher ficou grávida e deu à luz um filho. Ela viu que o menino era muito bonito e então o escondeu durante três meses. </font></item>
+        <item><font color="gray" size="14">3 </font> <font color="black" size="18">Como não podia escondê-lo por mais tempo, ela pegou uma cesta de junco, tapou os buracos com betume e piche, pôs nela o menino e deixou a cesta entre os juncos, na beira do rio.</font></item>
+        <item><font color="gray" size="14">4 </font> <font color="black" size="18">A irmã do menino ficou de longe, para ver o que ia acontecer com ele.</font></item>
+        <item><font color="gray" size="14">5 </font> <font color="black" size="18">A filha do rei do Egito foi até o rio e estava tomando banho enquanto as suas empregadas passeavam ali pela margem. De repente, ela viu a cesta no meio da moita de juncos e mandou que uma das suas escravas fosse buscá-la.</font></item>
+        <item><font color="gray" size="14">6 </font> <font color="black" size="18">A princesa abriu a cesta e viu um bebê chorando. Ela ficou com muita pena dele e disse: — Este é um menino israelita.</font></item>
+        <item><font color="gray" size="14">7 </font> <font color="black" size="18">Então a irmã da criança perguntou à princesa: — Quer que eu vá chamar uma mulher israelita para amamentar e criar esta criança para a senhora?</font></item>
+        <item><font color="gray" size="14">8 </font> <font color="black" size="18">— Vá — respondeu a princesa. Então a moça foi e trouxe a própria mãe do menino. </font></item>
+        <item><font color="gray" size="14">9 </font> <font color="black" size="18">Aí a princesa lhe disse: — Leve este menino e o crie para mim, que eu pagarei pelo seu trabalho. A mulher levou o menino e o criou.</font></item>
+        <item><font color="gray" size="14">10 </font> <font color="black" size="18">Quando ele já estava grande, ela o levou à filha do rei, que o adotou como filho. Ela pôs nele o nome de Moisés e disse: — Eu o tirei da água.</font></item>
+    </string-array>
+
+    <string-array name="exodo2ara">
+        <item><font color="black" size="18"><b>Nascimento e educação de Moisés</b></font></item>
+        <item><font color="gray" size="14">1 </font> <font color="black" size="18">Foi-se um homem da casa de Levi e casou com uma descendente de Levi.</font></item>
+        <item><font color="gray" size="14">2 </font> <font color="black" size="18">E a mulher concebeu e deu à luz um filho; e, vendo que era formoso, escondeu-o por três meses.</font></item>
+        <item><font color="gray" size="14">3 </font> <font color="black" size="18">Não podendo, porém, escondê-lo por mais tempo, tomou um cesto de junco, calafetou-o com betume e piche e, pondo nele o menino, largou-o no carriçal à beira do rio.</font></item>
+        <item><font color="gray" size="14">4 </font> <font color="black" size="18">A irmã do menino ficou de longe, para observar o que lhe haveria de suceder. </font></item>
+        <item><font color="gray" size="14">5 </font> <font color="black" size="18">Desceu a filha de Faraó para se banhar no rio, e as suas donzelas passeavam pela beira do rio; vendo ela o cesto no carriçal, enviou a sua criada e o tomou.</font></item>
+        <item><font color="gray" size="14">6 </font> <font color="black" size="18">Abrindo-o, viu a criança; e eis que o menino chorava. Teve compaixão dele e disse: Este é menino dos hebreus.</font></item>
+        <item><font color="gray" size="14">7 </font> <font color="black" size="18">Então, disse sua irmã à filha de Faraó: Queres que eu vá chamar uma das hebreias que sirva de ama e te crie a criança?</font></item>
+        <item><font color="gray" size="14">8 </font> <font color="black" size="18">Respondeu-lhe a filha de Faraó: Vai. Saiu, pois, a moça e chamou a mãe do menino. </font></item>
+        <item><font color="gray" size="14">9 </font> <font color="black" size="18">Então, lhe disse a filha de Faraó: Leva este menino e cria-mo; pagar-te-ei o teu salário. A mulher tomou o menino e o criou. </font></item>
+        <item><font color="gray" size="14">10 </font> <font color="black" size="18">Sendo o menino já grande, ela o trouxe à filha de Faraó, da qual passou ele a ser filho. Esta lhe chamou Moisés e disse: Porque das águas o tirei.</font></item>
+    </string-array>
+</resources>
